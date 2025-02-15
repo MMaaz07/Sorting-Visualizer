@@ -1,0 +1,159 @@
+h1{
+    text-align: center;
+}
+.sorting-options{
+    text-align: center;
+}
+button{
+    padding: 10px 50px;
+    background-color: rgb(128, 128, 128);
+    margin:0 10px;
+    color: white;
+}
+button:hover{
+    background-color: blue;
+}
+.array-dimensions{
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    align-items: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 10px 10px 10px;
+    margin: 5px;
+}
+section options{
+    display: flex;
+    justify-content: start;
+}
+section.options {
+    position: absolute;  
+    left: 0;
+    top: 50;  
+    width: auto;
+}
+.array-dimensions p{
+    color: green;
+    font-weight: bold;
+}
+.array-dimensions button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.array-dimensions button:hover{
+    background-color: #0056b3;
+}
+/*
+section.metric1{
+    display: flex;
+    justify-content: start;
+    float: right;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 40px 10px 10px;
+    margin: 5px;
+    font-size: 20px;
+}*/
+
+section .Complexity_Containers .Pair_Definitions p {
+    display: inline;
+  }
+
+h3{
+    color: green;
+}
+
+/*
+section.metric2 {
+    display: flex;
+    justify-content: start;
+    float: right;
+    width: auto;
+    padding: 5px 40px 10px 10px;
+    margin-top: 5px;  
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    clear: right; 
+}*/
+
+
+.hide {
+    display: none;
+}
+#array_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;  /* This is making it full width */
+    height: 50vh;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+}
+
+#array_container {
+    width: 60%; /* Adjust width */
+    margin: 10px auto; /* Center it */
+}
+
+
+#array_container div {
+    flex-grow: 1;
+    margin: 0 2px;
+}
+.butt_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.butt_selected {
+    background-color: white;
+    color: green;
+}
+.butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.metric-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns to the right */
+    position: absolute;
+    top: 140px; /* Adjust this to be right below the navbar */
+    right: 10px; /* Adjust distance from right */
+    width: 10%;
+}
+
+section.metric1,
+section.metric2 {
+    width: 160%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px 10px 10px;
+    font-size: 20px;
+}
+
+section.metric1 {
+    margin-bottom: 5px; /* Reduce gap between metric1 and metric2 */
+}
+
+section.metric2 {
+    margin-top: 0px;
+}
+
+.Pair_Definitions {
+    display: flex; /* Aligns elements in a row */
+    align-items: center; /* Centers vertically */
+    gap: 10px; /* Adds space between label and value */
+}
+
+.Pair_Definitions p {
+    margin: 6px;
+    display: inline-block; /* Ensures both text elements stay in one line */
+}

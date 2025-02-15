@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohammed Maaz">
+    <meta name="A Sorting Visualizer that demonstrates various sorting algorithms with animations, including Bubble Sort, Merge Sort, Insertion Sort, Selection Sort and Quick sort" content="Sorting Visualizer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Sorting Visualizer</h1>
+        <nav class="navbar">
+            <div class="sorting-options">
+                <div class="algos">
+                    <button>bubble</button>
+                    <button>Insertion</button>
+                    <button>Selection</button>
+                    <button>Merge</button>
+                    <button>Quick</button>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </header>
+
+    <section class="options">
+        <div class="array-dimensions">
+            <p>Size of Array</p>
+            <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+            <p>Speed of Algorithm</p>
+            <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+            <button id="a_generate">Generate New Array</button>
+        </div>
+    </section>
+
+    <div id="array_container"></div>
+    <div class="metric-container">
+        <section class="metric1">
+            <div class="Info1">
+                <h3>Time Complexity</h3>
+                <div class="Time-Complexities" id="Time_Complexity_Types_Container">
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Worst Case:</p>
+                        <p id="Time_Worst"></p>
+                    </div>
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Average Case:</p>
+                        <p id="Time_Average"></p>
+                    </div>
+                    <div class="Pair_Definitions">
+                        <p class="Sub_Heading">Best Case:</p>
+                        <p id="Time_Best"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="metric2">
+            <div id="Info2">
+                <h3>Space Complexity</h3>
+                <div class="Complexity_Containers">
+                    <div class="Pair_Definitions" id="Space_Complexity_Types_Container">
+                        <p class="Sub_Heading">Worst case:</p>
+                        <p id="Space_Worst"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+
+    </footer>
+
+    <script src="Scripts\main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="Scripts\visualizations.js"></script>  <!--This should be loaded after main.js-->
+    <script src="Scripts\bubbleSort.js"></script>
+    <script src="Scripts\insertionSort.js"></script>
+    <script src="Scripts\selectionSort.js"></script>
+    <script src="Scripts\mergeSort.js"></script>
+    <script src="Scripts\quickSort.js"></script>
+</body>
+</html>
