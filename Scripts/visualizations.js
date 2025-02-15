@@ -1,3 +1,8 @@
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/
 var speed=1000;
 inp_aspeed.addEventListener("input",vis_speed);
 
@@ -47,3 +52,8 @@ function enable_buttons()
         }
     },c_delay+=delay_time);
 }
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/

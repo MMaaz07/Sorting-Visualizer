@@ -1,3 +1,8 @@
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/
 function insertionSort()
 {
     //Setting Time complexities
@@ -48,3 +53,8 @@ function insertionSort()
 
     enable_buttons();
 }
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/

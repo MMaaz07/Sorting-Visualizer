@@ -1,3 +1,8 @@
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/
 var inp_aspeed = document.getElementById("a_speed"); // Assuming ID of input is 'input-speed'
 var inp_as = document.getElementById("a_size");
 var inp_gen = document.getElementById("a_generate");
@@ -85,4 +90,8 @@ function runalgo()
                         break;
     }
 }
-
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/

@@ -1,3 +1,8 @@
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/
 function mergeSort()
 {
     //Setting Time complexities
@@ -65,3 +70,8 @@ function merge_partition(start,end)
         merge_sort(start,mid,end);
     }
 }
+/*
+***********
+Done by Mohammed Maaz
+***********
+*/
